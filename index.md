@@ -1,5 +1,16 @@
-<html>
-<body>
-<img src="mahi.jpg" alt="Texas Mahi">
-</body>
-</html>
+body, html {
+  height: 100%;
+}
+
+.bg { 
+  /* The image used */
+  background-image: url("mahi.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
